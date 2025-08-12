@@ -1,12 +1,60 @@
-# React + Vite
+# 🎬 ProjetoMovies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação desenvolvida em **React** utilizando a **API do TMDB** para busca e exibição de informações sobre filmes. O projeto oferece uma experiência completa de navegação, busca, visualização de detalhes e gerenciamento de favoritos.
 
-Currently, two official plugins are available:
+## 🛠️ Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ **React.js** — Biblioteca principal para construção da interface.
+- ⚡ **Vite** — Ferramenta de build rápida e moderna.
+- 🎨 **CSS** — Estilização escopada por componente.
+- 📦 **Axios** — Requisições HTTP.
+- 💾 **LocalStorage** — Persistência de dados de favoritos.
 
-## Expanding the ESLint configuration
+## 🚀 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. 🔍 Página de Busca
+- Campo de texto para digitar o nome do filme.
+- Lista de resultados com:
+  - Pôster
+  - Título
+  - Ano de lançamento
+  - Botão para ver detalhes
+
+### 2. 📄 Paginação
+- Navegação entre páginas de resultados.
+- Controle de página atual e total de páginas disponíveis.
+
+### 3. 📽️ Página de Detalhes
+- Informações completas do filme:
+  - Diretor
+  - Elenco principal
+  - Sinopse
+  - Avaliação (nota)
+
+### 4. ❤️ Lista de Favoritos
+- Botão para adicionar ou remover filmes da lista de favoritos.
+- Página dedicada para exibir todos os filmes favoritados.
+- Persistência automática no `localStorage`.
+
+### 5. ⚠️ Tratamento de Erros & Loading
+- Indicador de carregamento durante requisições.
+- Mensagens amigáveis em caso de erro (ex: filme não encontrado, falha na API).
+
+## 📦 Instalação e Execução
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/ProjetoMovies.git
+
+# Acesse o diretório
+cd ProjetoMovies
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm run dev
+```
+
+## 🌐 Acesse o site
+🔗 [ProjetoMovies]() 
