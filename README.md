@@ -2,6 +2,9 @@
 
 Aplicação desenvolvida em **React** utilizando a **API do TMDB** para busca e exibição de informações sobre filmes. O projeto oferece uma experiência completa de navegação, busca, visualização de detalhes e gerenciamento de favoritos.
 
+## 🌐 Acesse o site
+🔗 [ProjetoMovies](https://projeto-movies-snowy.vercel.app/) 
+
 ## 🛠️ Tecnologias Utilizadas
 
 - ⚛️ **React.js** — Biblioteca principal para construção da interface.
@@ -55,6 +58,3 @@ npm install
 # Execute o projeto
 npm run dev
 ```
-
-## 🌐 Acesse o site
-🔗 [ProjetoMovies]() 
