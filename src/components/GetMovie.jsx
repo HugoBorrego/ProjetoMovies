@@ -64,7 +64,7 @@ export default function GetMovie() {
             const result = response.data.results[0]
             if (result) {
                 setSelectedMovie(result)
-                search.innerHTML = ''
+                setSearch('')
             } else {
                 setErro("Filme não encontrado.")
             }
@@ -119,6 +119,7 @@ export default function GetMovie() {
                     onChange={(e) => setSearch(e.target.value)}
                 />
                 <button onClick={handleSearch}>Buscar</button>
+                {erro && <p className="error-message">{erro}</p>}
             </div>
 
 
