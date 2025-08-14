@@ -119,7 +119,14 @@ export default function GetMovie() {
                     onChange={(e) => setSearch(e.target.value)}
                 />
                 <button onClick={handleSearch}>Buscar</button>
-                {erro && <p className="error-message">{erro}</p>}
+                {erro && (
+                    <div className="error-tab">
+                        <h3>⚠️ Filme não encontrado</h3>
+                        <p>Verifique a ortografia ou busque por outro título.</p>
+                        <button onClick={() => setErro(null)}>Fechar</button>
+                    </div>
+                )}
+
             </div>
 
 

@@ -286,3 +286,51 @@
 .search-section button:hover {
   background-color: #0056b3;
 }
+
+
+.error-tab {
+  background-color: #ffe0e0;
+  border: 1px solid #ff4d4d;
+  padding: 16px;
+  margin-top: 20px;
+  border-radius: 8px;
+  color: #990000;
+  max-width: 400px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.error-tab h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.error-tab p {
+  margin: 0 0 12px;
+}
+
+.error-tab {
+  background-color: #ffe0e0;
+  border: 1px solid #ff4d4d;
+  padding: 16px;
+  margin-top: 20px;
+  border-radius: 8px;
+  color: #990000;
+  max-width: 400px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.error-tab button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 12px auto 0;
+  display: block;
+}
+
+.error-tab button:hover {
+  background-color: #cc0000;
+}
